@@ -11,6 +11,9 @@ Go back to step 2 and repeat! (use a loop and provide a way for users to quit!)
 """
 
 from anthropic import Anthropic
+from dotenv import load_dotenv
+
+load_dotenv()
 
 client = Anthropic()
 
